@@ -1,0 +1,9 @@
+package br.edu.senaisp.sevlet;
+
+
+public class OlaMundo extends HttpServlet{
+
+
+
+	}
+

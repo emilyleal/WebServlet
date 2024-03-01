@@ -1,0 +1,37 @@
+package servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@WebServlet(urlPatterns = "/olamundo")
+
+public class OlaMundo extends HttpServlet {
+	@Override
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		int valor1 = Integer.parseInt(req.getParameter("param1"));
+		int valor2 = Integer.parseInt(req.getParameter("param2"));
+		String calculo = req.getParameter("calculo");
+		
+		if(calculo.equals("soma")) {
+			resp.getWriter().append("<html><h1>" + valor1 + " + " + valor2 + " = " + (valor1 + valor2) + "</h1></html>");
+		}else {
+			resp.getWriter().append("<html><h1>" +  valor1 + " + " + valor2 + " = " + (valor1 - valor2) + "</h1></html>");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

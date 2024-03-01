@@ -1,0 +1,8 @@
+127.0.0.1 - - [29/Feb/2024:21:57:53 -0300] "GET / HTTP/1.1" 404 764
+127.0.0.1 - - [29/Feb/2024:21:58:27 -0300] "GET / HTTP/1.1" 404 764
+0:0:0:0:0:0:0:1 - - [29/Feb/2024:22:00:40 -0300] "GET /EscolaWeb/olamundo?param1=3&param2=6&calculo=soma HTTP/1.1" 404 786
+0:0:0:0:0:0:0:1 - - [29/Feb/2024:22:00:40 -0300] "GET /favicon.ico HTTP/1.1" 404 775
+127.0.0.1 - - [29/Feb/2024:22:01:13 -0300] "GET / HTTP/1.1" 404 764
+0:0:0:0:0:0:0:1 - - [29/Feb/2024:22:01:20 -0300] "GET /EscolaWeb/olamundo?param1=3&param2=6&calculo=soma HTTP/1.1" 200 23
+127.0.0.1 - - [29/Feb/2024:22:10:33 -0300] "GET / HTTP/1.1" 404 764
+0:0:0:0:0:0:0:1 - - [29/Feb/2024:22:11:57 -0300] "GET /EscolaWeb/olamundo?param1=3&param2=6&calculo=soma HTTP/1.1" 200 31
